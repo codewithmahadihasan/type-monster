@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.27.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body
+    style="background-image: url('./bg.png'); background-size: cover"
+    class="h-screen"
+  >
+    <section class="pt-20">
+      <div
+        tabindex="0"
+        class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box bg-gray-800 text-white w-1/2 mx-auto mt-10"
+      >
+        <div class="collapse-title text-xl font-medium">
+          Difference between Localstorage and session storage
+        </div>
+        <div class="collapse-content">
+          <p>
+            The difference between session storage and local storage is that
+            local storage data does not expire, whereas session storage data is
+            cleared when the page session ends. A unique page session gets
+            created once a document is loaded in a browser tab. Page sessions
+            are valid for only one tab at a time.
+          </p>
+        </div>
+      </div>
+      <div
+        tabindex="0"
+        class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box bg-gray-800 text-white w-1/2 mx-auto mt-10"
+      >
+        <div class="collapse-title text-xl font-medium">
+          Difference between global local and block scope
+        </div>
+        <div class="collapse-content">
+          <p>
+            Global scope specifies that variables defined outside the block are
+            visible up to end of the program. Local scope specifies that
+            variables defined within the block are visible only in that block
+            and invisible outside the block. Variables declared in a block or
+            function (local) are accessible within that block and does not exist
+            outside it.
+          </p>
+        </div>
+      </div>
+      <div
+        tabindex="0"
+        class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box bg-gray-800 text-white w-1/2 mx-auto mt-10"
+      >
+        <div class="collapse-title text-xl font-medium">
+          How does JavaScript's event loop work?
+        </div>
+        <div class="collapse-content">
+          <p>
+            Event loop is a secret machenism of JavaScript through which
+            JavaScript acts like a multi-threaded programming language
+            externally despite being a single-threaded programming language. The
+            event loop closely monitors the call stack and if the call stack is
+            empty, sends the task from the event queue to the call stack to
+            complete the execution.
+          </p>
+        </div>
+      </div>
+      <div
+        tabindex="0"
+        class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box bg-gray-800 text-white w-1/2 mx-auto mt-10"
+      >
+        <div class="collapse-title text-xl font-medium">
+          When get undefined in JavaScript ?
+        </div>
+        <div class="collapse-content">
+          <p>
+            If the value of the variable is not assigned. Get undefined when
+            accessing an array element with an out of bounds index.when the
+            value is empty.Undefined value primitive value is used when a
+            variable has not been assigned a value. The standard clearly defines
+            that you will receive undefined when accessing uninitialized
+            variables, non-existing object properties, non-existing array
+            elements, and alike.
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
